@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p1 | { LC_ALL=C sort -d; echo; } | tr '\n' ',' | sed 's/,$/\n/'
+ls -p1 | ( LC_ALL=C sort= -d; echo;"") | paste -sd "," - | sed 's/,$/\n/'
