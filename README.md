@@ -1,1 +1,1 @@
-Store executable scripts from 0x00. Shell, basics project
+Store executable scripts from a series of shell projects
